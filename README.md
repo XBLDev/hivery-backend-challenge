@@ -1,4 +1,6 @@
 This backend is hosted on: 13.210.70.130
+Sample api:
+http://13.210.70.130/companyemployees?name=STRALUM
 
 Install:
 pip install -r requirements.txt
