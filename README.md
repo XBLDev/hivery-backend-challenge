@@ -1,12 +1,20 @@
 Pull code and installation:
 git init
+
 git remote add origin https://github.com/XBLDev/hivery-backend-challenge.git
+
 git pull origin master
+
 git checkout -b xilong
+
 git fetch
+
 git branch --set-upstream-to=origin/xilong xilong
+
 git pull
+
 pip install -r requirements.txt OR pip3 install -r requirements.txt
+
 If fails to install pytest try:
 pip install -U pytest
 
